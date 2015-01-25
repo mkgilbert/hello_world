@@ -14,6 +14,7 @@ class Question:
 	def ask(self):
 		print(self.question)
 		
-
+	def __str__(self):
+		return question
 		
 	
